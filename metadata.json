@@ -1,0 +1,7 @@
+{
+  "name": "Copy of AI Study Buddy",
+  "description": "An AI-powered application that generates a multiple-choice quiz from any block of study text. It uses Gemini to extract key terms and create relevant questions to help you test your knowledge.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
