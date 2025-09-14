@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['pdfjs-dist/build/pdf'],
+      external: ['pdfjs-dist'],
     },
   },
 });
