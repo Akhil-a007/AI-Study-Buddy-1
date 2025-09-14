@@ -1,4 +1,7 @@
-import * as pdfjsLib from 'pdfjs-dist';
+// Alternative 1 (ES5 build)
+import { getDocument } from 'pdfjs-dist/es5/build/pdf';
+// Alternative 2 (webpack-friendly entry — useful if you use worker bundling)
+import * as pdfjsLib from 'pdfjs-dist/webpack';
 import mammoth from 'mammoth';
 import { extractTextFromImage } from './geminiService';
 
