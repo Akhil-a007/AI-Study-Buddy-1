@@ -1,13 +1,12 @@
-// vite.config.ts (project root)
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      // Externalize pdfjs-dist so Rollup/Vite won't try to resolve/bundle it
-      external: ['pdfjs-dist'],
+      external: ['pdfjs-dist/webpack'],
     },
   },
-});
+})
