@@ -1,5 +1,5 @@
 // Alternative 1 (ES5 build)
-import { getDocument } from 'pdfjs-dist/es5/build/pdf';
+import { getDocument } from 'pdfjs-dist/legacy/build/pdf';
 // Alternative 2 (webpack-friendly entry — useful if you use worker bundling)
 import * as pdfjsLib from "pdfjs-dist/build/pdf";
 import mammoth from 'mammoth';
